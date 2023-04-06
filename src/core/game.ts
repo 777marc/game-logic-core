@@ -66,3 +66,10 @@ export const getQuestions = () => {
 
   return questions;
 };
+
+export const players = (gameCode: string[]) => {
+  if (gameCode) {
+    return ["Marc", "Bob", "Jane"];
+  }
+  return [];
+};
