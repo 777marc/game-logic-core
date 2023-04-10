@@ -1,6 +1,6 @@
 {
   "name": "@alminadev/game-logic-core",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "",
   "main": "./build/core.js",
   "types": "./build/core.d.ts",
