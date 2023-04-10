@@ -2,7 +2,7 @@
   "name": "@alminadev/game-logic-core",
   "version": "1.0.8",
   "description": "",
-  "main": "index.js",
+  "main": "./build/core.js",
   "scripts": {
     "clean": "del ./build/*",
     "build": "npm run clean && tsc",

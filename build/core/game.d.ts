@@ -7,3 +7,4 @@ export declare const getQuestions: () => {
     correct_answer: string;
     incorrect_answers: string[];
 }[];
+export declare const players: (gameCode: string[]) => string[];

@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.getQuestions = exports.generateGamecode = void 0;
+exports.players = exports.getQuestions = exports.generateGamecode = void 0;
 const generateGamecode = () => {
     const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
     const length = 9;
@@ -63,3 +63,10 @@ const getQuestions = () => {
     return questions;
 };
 exports.getQuestions = getQuestions;
+const players = (gameCode) => {
+    if (gameCode) {
+        return ["Marc", "Bob", "Jane"];
+    }
+    return [];
+};
+exports.players = players;
