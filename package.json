@@ -3,6 +3,10 @@
   "version": "1.0.9",
   "description": "",
   "main": "./build/core.js",
+  "types": "./build/core.d.ts",
+  "files": [
+    "build/**/*"
+  ],
   "scripts": {
     "clean": "del ./build/*",
     "build": "npm run clean && tsc",
